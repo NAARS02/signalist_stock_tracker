@@ -4,7 +4,7 @@ import Header from "@/components/Header"
 const Layout = ({ children }: { children: React.ReactNode}) => {
   return (
     <main className="min=hscreen text-gray-400">
-        <Header user={undefined} />
+        <Header/>
         <div className='container py-10'>
             {children}
         </div>
